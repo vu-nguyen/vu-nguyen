@@ -11,10 +11,10 @@ You can click the Preview link to take a look at your changes.
 
 ```mermaid
 stateDiagram-v2
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
+[*] --> Live
+Live --> [*]
+Live --> Love
+Love --> Live
+Love --> Die
+Die --> [*]
 ```
